@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>lab9</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="5">
+                <input type="text" id="string" value="0"/>
+            </td>
+        </tr>
+        <tr>
+            <td><button onclick="Add('7')">7</button></td>
+            <td><button onclick="Add('8')">8</button></td>
+            <td><button onclick="Add('9')">9</button></td>
+            <td><button onclick="Add('/')">/</button></td>
+            <td><button onclick="Cleare()">C</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="Add('4')">4</button></td>
+            <td><button onclick="Add('5')">5</button></td>
+            <td><button onclick="Add('6')">6</button></td>
+            <td><button onclick="Add('*')">*</button></td>
+            <td><button onclick="Last()"><-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="Add('1')">1</button></td>
+            <td><button onclick="Add('7')">2</button></td>
+            <td><button onclick="Add('3')">3</button></td>
+            <td><button onclick="Add('-')">-</button></td>
+            <td rowspan="2"><button class="equal" onclick="Solve()">=</button></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button class="zero" onclick="Add('0')">0</button></td>
+            <td><button onclick="Add('.')">.</button></td>
+            <td><button onclick="Add('+')">+</button></td>
+        </tr>
+    </table>
+    <script src="js/code.js"></script>
+</body>
+</html>
